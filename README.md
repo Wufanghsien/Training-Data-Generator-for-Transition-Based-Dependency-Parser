@@ -37,6 +37,8 @@ At every parsing step, two features are recorded alongside the action taken:
 - **POS tag of β0** — the next token in the buffer
 
 **Example output:**
+
+Given the sentence *"She saw him"*, the oracle might produce:
 ```  
 Features:               Target class
 [['ROOT', 'PRON'],      ['shift',
